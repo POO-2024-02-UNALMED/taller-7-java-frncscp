@@ -26,14 +26,14 @@ public class Tesis extends Escrito{
 
     @Override
     public String toString(){
-        return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos.size() + "\n" + this.conclusion + "\n" + this.referencias + "\n" + this.interpretacion;
+        return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos.length + "\n" + this.conclusion + "\n" + this.referencias + "\n" + this.interpretacion;
     }
 
     public String getIdea(){return this.idea;}
     public void setIdea(String idea){this.idea = idea;}
 
-    public String getArgumentos(){return this.argumentos;}
-    public void setArgumentos(String argumentos){this.argumentos = argumentos;}
+    public String[] getArgumentos(){return this.argumentos;}
+    public void setArgumentos(String[] argumentos){this.argumentos = argumentos;}
 
     public String getConclusion(){return this.conclusion;}
     public void setConclusion(String conclusion){this.conclusion = conclusion;}
