@@ -1,4 +1,4 @@
-package comunicacion
+package comunicacion;
 public class Tesis {
 
     private String idea;
@@ -29,19 +29,19 @@ public class Tesis {
         return super.getOrigen + "\n" + super.getTitulo + "\n" + super.getAutor + "\n" + super.getPaginas + "\n" + this.idea + "\n" + this.argumentos.size() + "\n" + this.conclusion + "\n" + this.referencias + "\n" + this.interpretacion;
     }
 
-    public String getIdea(){return this.idea};
-    public void setIdea(String idea){this.idea = idea}
+    public String getIdea(){return this.idea;}
+    public void setIdea(String idea){this.idea = idea;}
 
-    public String getArgumentos(){return this.argumentos}
-    public void setArgumentos(String argumentos){this.argumentos = argumentos}
+    public String getArgumentos(){return this.argumentos;}
+    public void setArgumentos(String argumentos){this.argumentos = argumentos;}
 
-    public String getConclusion(){return this.conclusion}
-    public void setConclusion(String conclusion){this.conclusion = conclusion}
+    public String getConclusion(){return this.conclusion;}
+    public void setConclusion(String conclusion){this.conclusion = conclusion;}
 
-    public String getReferencias(return this.referencias)
-    public void setReferencias(String referencias){this.referencias = referencias}
+    public String getReferencias(){return this.referencias;}
+    public void setReferencias(String referencias){this.referencias = referencias;}
 
     public String getInterpretacion(){return this.interpretacion;}
-    public void setInterpretacion(String interpretacion){this.interpretacion = interpretacion}
+    public void setInterpretacion(String interpretacion){this.interpretacion = interpretacion;}
 
 }
