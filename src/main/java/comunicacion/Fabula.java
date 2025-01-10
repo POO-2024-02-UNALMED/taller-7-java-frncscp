@@ -22,8 +22,8 @@ public class Fabula extends Escrito{
         return super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.ensenanzas;
     }
 
-    public String getEnsenanzas(){return this.ensenanzas;}
-    public void setEnsenanzas(String ensenanzas){this.ensenanzas = ensenanzas;}
+    public String getEnsenanza(){return this.ensenanzas;}
+    public void setEnsenanza(String ensenanzas){this.ensenanzas = ensenanzas;}
 
     public String getInterpretacion(){return this.interpretacion;}
     public void setInterpretacion(String interpretacion){this.interpretacion = interpretacion;}
